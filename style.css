@@ -1,0 +1,139 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+ img {
+       width: 100%;
+        height: 100%;
+        object-fit: cover;
+}
+
+.top-banner{
+    position: relative;
+}
+.logo-text{
+    position: absolute;
+    bottom: 50%;
+    color: wheat;
+    font-size: 25px;
+
+}
+.navigation-text{
+    position: absolute;
+    bottom: 90%;
+    left: 80%;
+    color: wheat;
+    display: flex;
+   margin-left: 25px;
+}
+
+
+
+
+
+.profile-section {
+    position: relative;
+    background: black;
+    height: 100%;
+    width: 100%;
+}
+
+.profile-image{
+    position: relative;
+    top: 50%;
+    right: 15%
+    
+}
+.slogan{
+    position: absolute;
+    top: 30%;
+     writing-mode: vertical-lr;
+   transform: rotate(180deg);
+   color: white;
+}
+.summary-text {
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 60%;
+    right:10%
+}
+.full-text {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 70%;
+    right: 10%;
+}
+
+
+
+/* .profile{
+    position: relative;
+    background: url(./images/abraham-fox.jpg);
+    height: 100%;
+    width: 100%;
+
+}
+   
+.profile-image{
+    position: absolute;
+    right: 40%;
+    height: 100vh;
+    width: 100vw;
+}
+.slogan{
+    position: absolute;
+    bottom: 20%;
+    color: wheat;
+   writing-mode: vertical-lr;
+   transform: rotate(180deg);
+}
+.summary{
+    position: absolute;
+    left:60%;
+    color: green;
+    top:40%
+    
+}
+.full-paragraph{
+    position: absolute;
+    top: 10%;
+    color: wheat;
+    left: 70%;
+    right: 0;
+
+} */
+
+.contact-us {
+    position: relative;
+   background: grey; 
+   height: 100vh;
+   width: 100vw;
+    
+}
+
+.contact-form{
+
+position: absolute;
+left: 80%;
+}
+
+
+ 
+input[type=email],[type=text], textarea {
+    width: 50%;
+    padding: 12px 20px;
+     display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+  }
+  input [type=submit]{
+      width: 50%;
+
+  }

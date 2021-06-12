@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+.container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 20% 20% 40% 20%;
+  grid-gap: 10px;
+  grid-template-areas: "photo  photo photo photo photo photo photo photo" 
+                        "profile  profile profile profile profile profile profile profile"
+                        "  gallery-text gallery-text gallery-text gallery-text gallery-text gallery-text  gallery-text gallery-text"
+                        " one  one  one  one one one one one"
+}
+
+.photo-banner {
+  grid-area: photo;
+  background: yellow;
+  height: 100%;
+  background-size: cover; /* <-- background size */
+  background-position: center; /* <-- background position */
+}
+
+.photo-profile {
+    grid-area: profile;
+    background: yellow;
+    height: 100%;
+    background-size: cover; /* <-- background size */
+    background-position: center; /* <-- background position */
+  }
+
+.slogan {
+  grid-area: slogan;
+  background: pink;
+  writing-mode: vertical-lr; 
+transform: rotate(180deg);
+
+}
+
+
+.short-paragraph {
+  grid-area: short;
+  background: teal;
+}
+
+.long-paragraph{
+  grid-area: long;
+  background: green;
+}
+
+
+.logo{
+    
+    float: left;
+   justify-items: center;
+}
+.gallery-text{
+    grid-area: gallery-text;
+}
+.one { 
+    grid-area: gallery;
+    background: yellow;
+    height: 100%;
+    background-size: cover; /* <-- background size */
+    background-position: center; /* <-- background position */
+}
